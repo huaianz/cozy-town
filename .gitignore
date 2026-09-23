@@ -1,0 +1,43 @@
+# Unity 生成的目录
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Visual Studio / Rider / VS Code 生成物
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity 崩溃与缓存
+sysinfo.txt
+crashlytics-build.properties
+
+# 打包产物
+*.apk
+*.aab
+*.ipa
+*.unitypackage
+
+# 系统文件
+*.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,719 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f14b4a9c16d18479db3da2bb357e85, type: 3}
+  m_Name: ItemData_SO
+  m_EditorClassIdentifier: 
+  Items:
+  - itemID: 1
+    itemName: "\u571F\u8C46\u79CD\u5B50"
+    itemType: 0
+    itemDescription: "\u53EF\u79CD\u690D\u5728\u8015\u5730\u4E0A\uFF0C\u6210\u719F\u540E\u6536\u83B7\u65B0\u9C9C\u571F\u8C46"
+    itemIcon: {fileID: 21300000, guid: 712efb3c5425e4d62aa03accb5b7a498, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 712efb3c5425e4d62aa03accb5b7a498, type: 3}
+    itemPrice: 66
+    sellPercentage: 0.73
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 2
+    itemName: "\u571F\u8C46"
+    itemType: 6
+    itemDescription: "\u521A\u4ECE\u5730\u91CC\u6536\u83B7\u7684\u65B0\u9C9C\u571F\u8C46\uFF0C\u53EF\u51FA\u552E\u6362\u53D6\u91D1\u5E01"
+    itemIcon: {fileID: 21300000, guid: 59a2ce6cc735e4cd3a3da1bad8629303, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 59a2ce6cc735e4cd3a3da1bad8629303, type: 3}
+    itemPrice: 54
+    sellPercentage: 0.448
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 3
+    itemName: "\u7C89\u7EA2\u841D\u535C\u79CD\u5B50"
+    itemType: 0
+    itemDescription: "\u53EF\u79CD\u690D\u5728\u8015\u5730\u4E0A\uFF0C\u6210\u719F\u540E\u6536\u83B7\u8106\u751C\u7684\u7C89\u7EA2\u841D\u535C"
+    itemIcon: {fileID: 21300000, guid: 2597146da57814c789a59eda5740c9bf, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 2597146da57814c789a59eda5740c9bf, type: 3}
+    itemPrice: 33
+    sellPercentage: 0.626
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 4
+    itemName: "\u7C89\u7EA2\u841D\u535C"
+    itemType: 6
+    itemDescription: "\u53E3\u611F\u8106\u751C\u7684\u7C89\u7EA2\u841D\u535C\uFF0C\u5E02\u573A\u552E\u4EF7\u4E0D\u9519"
+    itemIcon: {fileID: 21300000, guid: 3fa10b9ef4ceb407f953f7783c0c5ee4, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 3fa10b9ef4ceb407f953f7783c0c5ee4, type: 3}
+    itemPrice: 55
+    sellPercentage: 0.637
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 5
+    itemName: "\u767D\u841D\u535C\u79CD\u5B50"
+    itemType: 0
+    itemDescription: "\u53EF\u79CD\u690D\u5728\u8015\u5730\u4E0A\uFF0C\u6210\u719F\u540E\u6536\u83B7\u591A\u6C41\u7684\u767D\u841D\u535C"
+    itemIcon: {fileID: 21300000, guid: 0689ebc0f067f41fa98586e5b574896f, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 0689ebc0f067f41fa98586e5b574896f, type: 3}
+    itemPrice: 44
+    sellPercentage: 0.692
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 6
+    itemName: "\u767D\u841D\u535C"
+    itemType: 6
+    itemDescription: "\u6C41\u6C34\u9971\u6EE1\u7684\u767D\u841D\u535C\uFF0C\u662F\u57FA\u7840\u7684\u519C\u4F5C\u7269"
+    itemIcon: {fileID: 21300000, guid: ead453a0ee8ee49329522ee30394ee3a, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: ead453a0ee8ee49329522ee30394ee3a, type: 3}
+    itemPrice: 55
+    sellPercentage: 0.747
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 7
+    itemName: "\u5357\u74DC\u79CD\u5B50"
+    itemType: 0
+    itemDescription: "\u53EF\u79CD\u690D\u5728\u8015\u5730\u4E0A\uFF0C\u6210\u719F\u540E\u6536\u83B7\u5927\u4E2A\u5934\u7684\u5357\u74DC"
+    itemIcon: {fileID: 21300000, guid: 738078985c017481f8d443cf821e26b5, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 738078985c017481f8d443cf821e26b5, type: 3}
+    itemPrice: 77
+    sellPercentage: 0.391
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 8
+    itemName: "\u5357\u74DC"
+    itemType: 6
+    itemDescription: "\u4E2A\u5934\u7855\u5927\u7684\u5357\u74DC\uFF0C\u6210\u719F\u540E\u4EF7\u503C\u5F88\u9AD8"
+    itemIcon: {fileID: 21300000, guid: 709947d08509b408db26e4136a0232ee, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 709947d08509b408db26e4136a0232ee, type: 3}
+    itemPrice: 56
+    sellPercentage: 0.47
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 9
+    itemName: "\u897F\u7EA2\u67FF\u79CD\u5B50"
+    itemType: 0
+    itemDescription: "\u53EF\u79CD\u690D\u5728\u8015\u5730\u4E0A\uFF0C\u6210\u719F\u540E\u6536\u83B7\u9178\u751C\u7684\u897F\u7EA2\u67FF"
+    itemIcon: {fileID: 21300000, guid: b2299da4eb0be49f0843d0e1fbafbed1, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: b2299da4eb0be49f0843d0e1fbafbed1, type: 3}
+    itemPrice: 43
+    sellPercentage: 0.618
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 10
+    itemName: "\u897F\u7EA2\u67FF"
+    itemType: 6
+    itemDescription: "\u9178\u751C\u591A\u6C41\u7684\u897F\u7EA2\u67FF\uFF0C\u662F\u70ED\u95E8\u7684\u519C\u4F5C\u7269"
+    itemIcon: {fileID: 21300000, guid: 829edba0aa42246a2a95e69096ea5862, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 829edba0aa42246a2a95e69096ea5862, type: 3}
+    itemPrice: 25
+    sellPercentage: 0.552
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 11
+    itemName: "\u8304\u5B50\u79CD\u5B50"
+    itemType: 0
+    itemDescription: "\u53EF\u79CD\u690D\u5728\u8015\u5730\u4E0A\uFF0C\u6210\u719F\u540E\u6536\u83B7\u9971\u6EE1\u7684\u8304\u5B50"
+    itemIcon: {fileID: 21300000, guid: 7fa27847daa7848cd8221a18379f7a21, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 7fa27847daa7848cd8221a18379f7a21, type: 3}
+    itemPrice: 56
+    sellPercentage: 0.812
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 12
+    itemName: "\u8304\u5B50"
+    itemType: 6
+    itemDescription: "\u679C\u8089\u9971\u6EE1\u7684\u8304\u5B50\uFF0C\u5E02\u573A\u9700\u6C42\u7A33\u5B9A"
+    itemIcon: {fileID: 21300000, guid: 18dd810d9429d489cae29f0f11a4d177, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 18dd810d9429d489cae29f0f11a4d177, type: 3}
+    itemPrice: 99
+    sellPercentage: 0.489
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 13
+    itemName: "\u8FA3\u6912\u79CD\u5B50"
+    itemType: 0
+    itemDescription: "\u53EF\u79CD\u690D\u5728\u8015\u5730\u4E0A\uFF0C\u6210\u719F\u540E\u6536\u83B7\u8F9B\u8FA3\u7684\u8FA3\u6912"
+    itemIcon: {fileID: 21300000, guid: 38565caefc0504f3f9cb90ce3c5d3c3c, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 38565caefc0504f3f9cb90ce3c5d3c3c, type: 3}
+    itemPrice: 77
+    sellPercentage: 0.465
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 14
+    itemName: "\u8FA3\u6912"
+    itemType: 6
+    itemDescription: "\u53E3\u611F\u8F9B\u8FA3\u7684\u8FA3\u6912\uFF0C\u662F\u57FA\u7840\u7684\u8C03\u5473\u4F5C\u7269"
+    itemIcon: {fileID: 21300000, guid: 3fcb9b37a91af4aed85fcc8c19c7d112, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 3fcb9b37a91af4aed85fcc8c19c7d112, type: 3}
+    itemPrice: 25
+    sellPercentage: 0.574
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 15
+    itemName: "\u897F\u74DC\u79CD\u5B50"
+    itemType: 0
+    itemDescription: "\u53EF\u79CD\u690D\u5728\u8015\u5730\u4E0A\uFF0C\u6210\u719F\u540E\u6536\u83B7\u7518\u751C\u7684\u897F\u74DC"
+    itemIcon: {fileID: 21300000, guid: 5cfc475b0e3804e81b1233785b390bde, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 5cfc475b0e3804e81b1233785b390bde, type: 3}
+    itemPrice: 46
+    sellPercentage: 0.637
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 16
+    itemName: "\u897F\u74DC"
+    itemType: 6
+    itemDescription: "\u7518\u751C\u591A\u6C41\u7684\u5927\u897F\u74DC\uFF0C\u662F\u9AD8\u4EF7\u503C\u7684\u7ECF\u6D4E\u4F5C\u7269"
+    itemIcon: {fileID: 21300000, guid: 09de733bd01a24ca6bc8f78192d8f358, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 09de733bd01a24ca6bc8f78192d8f358, type: 3}
+    itemPrice: 55
+    sellPercentage: 0.574
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 17
+    itemName: "\u84DD\u8393\u79CD\u5B50"
+    itemType: 0
+    itemDescription: "\u53EF\u79CD\u690D\u5728\u8015\u5730\u4E0A\uFF0C\u6210\u719F\u540E\u6536\u83B7\u9178\u751C\u7684\u84DD\u8393"
+    itemIcon: {fileID: 21300000, guid: a190370c9a26a43aa9c3e596f8976fc4, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: a190370c9a26a43aa9c3e596f8976fc4, type: 3}
+    itemPrice: 87
+    sellPercentage: 0.785
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 18
+    itemName: "\u84DD\u8393"
+    itemType: 6
+    itemDescription: "\u9178\u751C\u53EF\u53E3\u7684\u84DD\u8393\uFF0C\u662F\u9AD8\u4EF7\u503C\u7684\u6D46\u679C\u7C7B\u4F5C\u7269"
+    itemIcon: {fileID: 21300000, guid: 1683a58ffb6f243019e331431169e852, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 1683a58ffb6f243019e331431169e852, type: 3}
+    itemPrice: 26
+    sellPercentage: 0.78
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 19
+    itemName: "\u8461\u8404\u79CD\u5B50"
+    itemType: 0
+    itemDescription: "\u53EF\u79CD\u690D\u5728\u8015\u5730\u4E0A\uFF0C\u6210\u719F\u540E\u6536\u83B7\u9971\u6EE1\u7684\u8461\u8404"
+    itemIcon: {fileID: 21300000, guid: eff80b331cf5c4ca49471d8604c3b52e, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: eff80b331cf5c4ca49471d8604c3b52e, type: 3}
+    itemPrice: 55
+    sellPercentage: 0.353
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 20
+    itemName: "\u8461\u8404"
+    itemType: 6
+    itemDescription: "\u679C\u8089\u9971\u6EE1\u7684\u8461\u8404\uFF0C\u53EF\u76F4\u63A5\u51FA\u552E\u6216\u8FDB\u4E00\u6B65\u52A0\u5DE5"
+    itemIcon: {fileID: 21300000, guid: 567730b76d77440f09c9bb6adee6040f, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 567730b76d77440f09c9bb6adee6040f, type: 3}
+    itemPrice: 43
+    sellPercentage: 0.626
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 21
+    itemName: "\u65A7\u5934"
+    itemType: 1
+    itemDescription: 
+    itemIcon: {fileID: 21300000, guid: 3714c3e6b5e3d498ebcd06d432b3dd89, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 3714c3e6b5e3d498ebcd06d432b3dd89, type: 3}
+    itemPrice: 0
+    sellPercentage: 0
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 22
+    itemName: "\u6D12\u6C34\u58F6"
+    itemType: 3
+    itemDescription: 
+    itemIcon: {fileID: 21300000, guid: 5b98b5b289f8549f9bbd017e5f0aa5c7, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 5b98b5b289f8549f9bbd017e5f0aa5c7, type: 3}
+    itemPrice: 0
+    sellPercentage: 0
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 23
+    itemName: "\u9570\u5200"
+    itemType: 4
+    itemDescription: 
+    itemIcon: {fileID: 21300000, guid: 9aae36af8a3474f72a99e04af71b7044, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 9aae36af8a3474f72a99e04af71b7044, type: 3}
+    itemPrice: 0
+    sellPercentage: 0
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 24
+    itemName: "\u94C1\u9550"
+    itemType: 5
+    itemDescription: 
+    itemIcon: {fileID: 21300000, guid: ab9788b07a759404293670018c76ec0f, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: ab9788b07a759404293670018c76ec0f, type: 3}
+    itemPrice: 0
+    sellPercentage: 0
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 25
+    itemName: "\u9504\u5934"
+    itemType: 2
+    itemDescription: 
+    itemIcon: {fileID: 21300000, guid: 71ca9227166f34790bb8b1c7948d491f, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 71ca9227166f34790bb8b1c7948d491f, type: 3}
+    itemPrice: 0
+    sellPercentage: 0
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 27
+    itemName: "\u6728\u6750"
+    itemType: 6
+    itemDescription: "\u780D\u6811\u5F97\u5230\u7684\u6728\u6599\uFF0C\u53EF\u4EE5\u5356\u94B1"
+    itemIcon: {fileID: 21300000, guid: 6bdcabcb3e8684660981c3dbfa135c8d, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 018bd79f696fb400584536e445976758, type: 3}
+    itemPrice: 40
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 28
+    itemName: "\u77F3\u5934"
+    itemType: 6
+    itemDescription: "\u7838\u788E\u77F3\u5757\u5F97\u5230\u7684\u77F3\u6599"
+    itemIcon: {fileID: 21300000, guid: 0d1bd60a4df28461a802344fdf5d9478, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 45a3ea64377134f4299e757a1becb6df, type: 3}
+    itemPrice: 30
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 29
+    itemName: "\u7EA4\u7EF4"
+    itemType: 6
+    itemDescription: "\u9664\u8349\u6536\u96C6\u7684\u690D\u7269\u7EA4\u7EF4"
+    itemIcon: {fileID: 21300000, guid: e457a28d7c05742a6bcb044458883809, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: e8ebe711ec1de4697a10d8c2f3f39f20, type: 3}
+    itemPrice: 20
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 26
+    itemName: "\u5F00\u8352\u8BC1"
+    itemType: 7
+    itemDescription: "\u62FF\u7740\u5B83\u70B9\u51FB\u672A\u5F00\u57A6\u7684\u571F\u5730\uFF0C\u5C31\u80FD\u5F00\u57A6\u4E00\u5757\u65B0\u5730"
+    itemIcon: {fileID: 21300000, guid: db38849b5eab460187d5c34b91a71a56, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: db38849b5eab460187d5c34b91a71a56, type: 3}
+    itemPrice: 0
+    sellPercentage: 0
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 47
+    itemName: "\u8349\u836f\u79cd\u5b50"
+    itemType: 0
+    itemDescription: "\u53ef\u79cd\u690d\u7684\u836f\u8349\u79cd\u5b50\uff0c\u6625\u79cb\u4e24\u5b63\u90fd\u80fd\u79cd"
+    itemIcon: {fileID: 21300000, guid: 0ce395fdc1e271b82558697482b54c77, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 0ce395fdc1e271b82558697482b54c77, type: 3}
+    itemPrice: 45
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 48
+    itemName: "\u8349\u836f"
+    itemType: 6
+    itemDescription: "\u6652\u5e72\u540e\u80fd\u5165\u836f\u7684\u8349\u836f\uff0c\u5e02\u573a\u4ef7\u4e0d\u9519"
+    itemIcon: {fileID: 21300000, guid: 54c32d75b00498bf308ecc46ad1d7464, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 54c32d75b00498bf308ecc46ad1d7464, type: 3}
+    itemPrice: 62
+    sellPercentage: 0.6
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 49
+    itemName: "\u91ce\u8393\u79cd\u5b50"
+    itemType: 0
+    itemDescription: "\u590f\u5929\u7684\u91ce\u8393\u79cd\u5b50\uff0c\u79cd\u4e0b\u540e\u80fd\u53cd\u590d\u7ed3\u679c"
+    itemIcon: {fileID: 21300000, guid: 3c3188f4c26e7305ae19193291dd5578, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 3c3188f4c26e7305ae19193291dd5578, type: 3}
+    itemPrice: 58
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 50
+    itemName: "\u91ce\u8393"
+    itemType: 6
+    itemDescription: "\u9178\u751c\u7684\u91ce\u8393\uff0c\u53ef\u4ee5\u76f4\u63a5\u5356\u94b1"
+    itemIcon: {fileID: 21300000, guid: 35d3e1033c0b26b9bd1d9d2c6fc70540, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 35d3e1033c0b26b9bd1d9d2c6fc70540, type: 3}
+    itemPrice: 74
+    sellPercentage: 0.62
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 30
+    itemName: "\u8702\u871c"
+    itemType: 6
+    itemDescription: "\u871c\u8702\u917f\u7684\u871c\uff0c\u5f88\u53d7\u5e02\u573a\u6b22\u8fce"
+    itemIcon: {fileID: 21300000, guid: a4c16222f3d317365988a5e9fb430f6d, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: a4c16222f3d317365988a5e9fb430f6d, type: 3}
+    itemPrice: 126
+    sellPercentage: 0.7
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 31
+    itemName: "\u5806\u80a5"
+    itemType: 6
+    itemDescription: "\u843d\u53f6\u5806\u91cc\u6ca4\u51fa\u7684\u5806\u80a5\uff0c\u80fd\u8ba9\u571f\u5730\u66f4\u80a5"
+    itemIcon: {fileID: 21300000, guid: e38dc0af59d7f666527c21b710232b30, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: e38dc0af59d7f666527c21b710232b30, type: 3}
+    itemPrice: 38
+    sellPercentage: 0.55
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 32
+    itemName: "\u6bdb\u76ae"
+    itemType: 6
+    itemDescription: "\u96ea\u5154\u7559\u4e0b\u7684\u6bdb\u76ae\uff0c\u51ac\u5929\u6700\u597d\u5356"
+    itemIcon: {fileID: 21300000, guid: d8282b92a81215079a8079226ea59d05, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: d8282b92a81215079a8079226ea59d05, type: 3}
+    itemPrice: 118
+    sellPercentage: 0.68
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 33
+    itemName: "\u7a3b\u8349\u4eba"
+    itemType: 8
+    itemDescription: "\u653e\u5728\u7530\u91cc\uff0c\u866b\u707e\u6765\u7684\u65f6\u5019\u80fd\u6321\u4f4f\u866b\u7fa4"
+    itemIcon: {fileID: 21300000, guid: 8804a5d49e5e955b40a02e2a591326eb, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 8804a5d49e5e955b40a02e2a591326eb, type: 3}
+    itemPrice: 96
+    sellPercentage: 0.35
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 34
+    itemName: "\u6e29\u5ba4\u68da"
+    itemType: 9
+    itemDescription: "\u642d\u5728\u5730\u5757\u4e0a\uff0c\u91cc\u9762\u7684\u4f5c\u7269\u4e0d\u6015\u98ce\u96ea\uff0c\u56db\u5b63\u53ef\u79cd"
+    itemIcon: {fileID: 21300000, guid: d7c3cf635411b5f492f2d0730ee02711, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: d7c3cf635411b5f492f2d0730ee02711, type: 3}
+    itemPrice: 420
+    sellPercentage: 0.35
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 35
+    itemName: "\u82f9\u679c"
+    itemType: 6
+    itemDescription: "\u679c\u56ed\u91cc\u7ed3\u7684\u82f9\u679c\uff0c\u53c8\u5927\u53c8\u751c"
+    itemIcon: {fileID: 21300000, guid: 9a44545c50b8483efc2a0696d2b10ba8, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 9a44545c50b8483efc2a0696d2b10ba8, type: 3}
+    itemPrice: 88
+    sellPercentage: 0.62
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 36
+    itemName: "\u82f9\u679c\u6811\u82d7"
+    itemType: 0
+    itemDescription: "\u79cd\u4e0b\u53bb\u5c31\u4f1a\u957f\u6210\u82f9\u679c\u6811\uff0c\u80fd\u53cd\u590d\u7ed3\u679c"
+    itemIcon: {fileID: 21300000, guid: 6fd2ef5f1fd721e712844fea2aaff0e3, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 6fd2ef5f1fd721e712844fea2aaff0e3, type: 3}
+    itemPrice: 220
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 37
+    itemName: "\u77ff\u77f3"
+    itemType: 6
+    itemDescription: "\u77ff\u6d1e\u91cc\u6572\u4e0b\u6765\u7684\u77ff\u77f3\uff0c\u94c1\u5320\u94fa\u62a2\u7740\u8981"
+    itemIcon: {fileID: 21300000, guid: 8b791b96f6acc3b81a51e2c43f5094f6, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 8b791b96f6acc3b81a51e2c43f5094f6, type: 3}
+    itemPrice: 72
+    sellPercentage: 0.6
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 38
+    itemName: "\u5b9d\u77f3"
+    itemType: 6
+    itemDescription: "\u77ff\u6d1e\u6df1\u5904\u7684\u5b9d\u77f3\uff0c\u80fd\u5356\u4e2a\u597d\u4ef7\u94b1"
+    itemIcon: {fileID: 21300000, guid: d912beeb56dac96f627386e4583a8460, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: d912beeb56dac96f627386e4583a8460, type: 3}
+    itemPrice: 286
+    sellPercentage: 0.75
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 39
+    itemName: "\u9c7c\u7aff"
+    itemType: 10
+    itemDescription: "\u8d70\u5230\u9c7c\u5858\u8fb9\u70b9\u6c34\u9762\uff0c\u5c31\u80fd\u9493\u4e0a\u9c7c\u6765"
+    itemIcon: {fileID: 21300000, guid: db62a6b046e3998024260ba00ba5d2c0, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: db62a6b046e3998024260ba00ba5d2c0, type: 3}
+    itemPrice: 0
+    sellPercentage: 0
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 40
+    itemName: "\u9ca4\u9c7c"
+    itemType: 6
+    itemDescription: "\u9c7c\u5858\u91cc\u6700\u5e38\u89c1\u7684\u9ca4\u9c7c"
+    itemIcon: {fileID: 21300000, guid: 35cb522eff1d2d9587b540a9e310784b, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 35cb522eff1d2d9587b540a9e310784b, type: 3}
+    itemPrice: 68
+    sellPercentage: 0.6
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 41
+    itemName: "\u9c88\u9c7c"
+    itemType: 6
+    itemDescription: "\u8089\u8d28\u9c9c\u7f8e\u7684\u9c88\u9c7c\uff0c\u4ef7\u683c\u4e0d\u9519"
+    itemIcon: {fileID: 21300000, guid: 2de3cfc14cd9a172db58eab28370dd5f, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 2de3cfc14cd9a172db58eab28370dd5f, type: 3}
+    itemPrice: 142
+    sellPercentage: 0.65
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 42
+    itemName: "\u91d1\u9c7c"
+    itemType: 6
+    itemDescription: "\u5f88\u5c11\u89c1\u7684\u91d1\u9c7c\uff0c\u5356\u4ef7\u5f88\u9ad8"
+    itemIcon: {fileID: 21300000, guid: 4c8b289ec09ef95fdf0eef4ea1718949, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 4c8b289ec09ef95fdf0eef4ea1718949, type: 3}
+    itemPrice: 328
+    sellPercentage: 0.78
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 43
+    itemName: "\u5e78\u8fd0\u679c\u5b9e"
+    itemType: 6
+    itemDescription: "\u5f02\u53d8\u4e30\u6536\u65f6\u624d\u4f1a\u51fa\u73b0\u7684\u679c\u5b9e\uff0c\u5356\u4ef7\u5f88\u9ad8"
+    itemIcon: {fileID: 21300000, guid: 311bdf9df68dfe9a2addd36beda7e3a8, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 311bdf9df68dfe9a2addd36beda7e3a8, type: 3}
+    itemPrice: 228
+    sellPercentage: 0.8
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 44
+    itemName: "\u82f9\u679c\u9171"
+    itemType: 6
+    itemDescription: "\u7528\u82f9\u679c\u71ac\u7684\u679c\u9171\uff0c\u6bd4\u5355\u5356\u82f9\u679c\u5212\u7b97"
+    itemIcon: {fileID: 21300000, guid: c67a01a63d5de317e1900451b8dc3104, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: c67a01a63d5de317e1900451b8dc3104, type: 3}
+    itemPrice: 268
+    sellPercentage: 0.8
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 45
+    itemName: "\u852c\u83dc\u6c64"
+    itemType: 6
+    itemDescription: "\u571f\u8c46\u548c\u841d\u535c\u716e\u7684\u6d53\u6c64\uff0c\u6696\u80c3\u53c8\u8d5a\u94b1"
+    itemIcon: {fileID: 21300000, guid: b393645f32ba806f902a435d5425178f, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: b393645f32ba806f902a435d5425178f, type: 3}
+    itemPrice: 312
+    sellPercentage: 0.8
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 46
+    itemName: "\u70e4\u9c7c"
+    itemType: 6
+    itemDescription: "\u70ad\u706b\u70e4\u7684\u9c7c\uff0c\u9999\u5f97\u5f88"
+    itemIcon: {fileID: 21300000, guid: d600ae67446977a1eec258b9a9683f5a, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: d600ae67446977a1eec258b9a9683f5a, type: 3}
+    itemPrice: 176
+    sellPercentage: 0.8
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 51
+    itemName: "\u8349\u9c7c\u82d7"
+    itemType: 0
+    itemDescription: "\u6295\u8fdb\u9c7c\u5858\u5c31\u80fd\u517b\u8349\u9c7c\uff0c\u8349\u9c7c\u7231\u5403\u91ce\u8349"
+    itemIcon: {fileID: 21300000, guid: acb31765b20743e992b82433fc90d8e6, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: acb31765b20743e992b82433fc90d8e6, type: 3}
+    itemPrice: 48
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 52
+    itemName: "\u9ca4\u9c7c\u82d7"
+    itemType: 0
+    itemDescription: "\u6295\u8fdb\u9c7c\u5858\u517b\u9ca4\u9c7c\uff0c\u6700\u7701\u5fc3\u7684\u9c7c"
+    itemIcon: {fileID: 21300000, guid: afc35a457f85498fa2d2ccc80ac83560, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: afc35a457f85498fa2d2ccc80ac83560, type: 3}
+    itemPrice: 40
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 53
+    itemName: "\u9c88\u9c7c\u82d7"
+    itemType: 0
+    itemDescription: "\u6295\u8fdb\u9c7c\u5858\u517b\u9c88\u9c7c\uff0c\u5356\u4ef7\u4e0d\u9519"
+    itemIcon: {fileID: 21300000, guid: 1b1006462b2f4476afb68c7387fb2d9e, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 1b1006462b2f4476afb68c7387fb2d9e, type: 3}
+    itemPrice: 72
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 54
+    itemName: "\u91d1\u9c7c\u82d7"
+    itemType: 0
+    itemDescription: "\u6295\u8fdb\u9c7c\u5858\u517b\u91d1\u9c7c\uff0c\u957f\u6210\u4e86\u5f88\u503c\u94b1"
+    itemIcon: {fileID: 21300000, guid: 2046794f730d4997b8f8ba292778deb8, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 2046794f730d4997b8f8ba292778deb8, type: 3}
+    itemPrice: 120
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 55
+    itemName: "\u9c7c\u98df"
+    itemType: 6
+    itemDescription: "\u6492\u8fdb\u9c7c\u5858\uff0c\u9c7c\u957f\u5f97\u66f4\u5feb"
+    itemIcon: {fileID: 21300000, guid: a75e5ef2bccc470eaa6ea5f1af0d0681, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: a75e5ef2bccc470eaa6ea5f1af0d0681, type: 3}
+    itemPrice: 12
+    sellPercentage: 0.4
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 56
+    itemName: "\u8349\u9c7c"
+    itemType: 6
+    itemDescription: "\u5403\u8349\u957f\u5927\u7684\u8349\u9c7c\uff0c\u8089\u8d28\u7d27\u5b9e"
+    itemIcon: {fileID: 21300000, guid: a26189a79b7049a9afa3245612ca4841, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: a26189a79b7049a9afa3245612ca4841, type: 3}
+    itemPrice: 110
+    sellPercentage: 0.62
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 57
+    itemName: "\u91ce\u8349"
+    itemType: 6
+    itemDescription: "\u5272\u4e0b\u6765\u7684\u91ce\u8349\uff0c\u8349\u9c7c\u6700\u7231\u5403"
+    itemIcon: {fileID: 21300000, guid: 14efaf8e74034e0095a324096221567e, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 14efaf8e74034e0095a324096221567e, type: 3}
+    itemPrice: 14
+    sellPercentage: 0.4
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 58
+    itemName: "\u9c7c\u6c64"
+    itemType: 6
+    itemDescription: "\u9ca4\u9c7c\u71ac\u7684\u6c64\uff0c\u6696\u80c3\u53c8\u503c\u94b1"
+    itemIcon: {fileID: 21300000, guid: 9f5aadf625f94aa388db20342257319e, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 9f5aadf625f94aa388db20342257319e, type: 3}
+    itemPrice: 196
+    sellPercentage: 0.8
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 59
+    itemName: "\u70e7\u9c7c\u5757"
+    itemType: 6
+    itemDescription: "\u8349\u9c7c\u5757\u70e7\u5f97\u7126\u9999\uff0c\u5356\u4ef7\u4e0d\u9519"
+    itemIcon: {fileID: 21300000, guid: c710b646a34045b9b707389f0df92b91, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: c710b646a34045b9b707389f0df92b91, type: 3}
+    itemPrice: 268
+    sellPercentage: 0.8
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 60
+    itemName: "\u679c\u9171\u62fc\u76d8"
+    itemType: 6
+    itemDescription: "\u82f9\u679c\u9171\u914d\u91ce\u8393\uff0c\u6446\u76d8\u5f88\u7cbe\u81f4"
+    itemIcon: {fileID: 21300000, guid: b6ea01aac4ba427ab889d0b0a437089c, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: b6ea01aac4ba427ab889d0b0a437089c, type: 3}
+    itemPrice: 372
+    sellPercentage: 0.8
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 0
+  - itemID: 61
+    itemName: "\u6728\u6805\u680f"
+    itemType: 6
+    itemDescription: "\u6446\u5728\u519c\u573a\u4e0a\u505a\u56f4\u680f\uff0c\u7eaf\u88c5\u9970"
+    itemIcon: {fileID: 21300000, guid: 2ce8a678c71647f98f74e0454a8b49f0, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 2ce8a678c71647f98f74e0454a8b49f0, type: 3}
+    itemPrice: 120
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 62
+    itemName: "\u77f3\u677f\u8def"
+    itemType: 6
+    itemDescription: "\u94fa\u5728\u5730\u4e0a\u5f53\u5c0f\u8def\uff0c\u7eaf\u88c5\u9970"
+    itemIcon: {fileID: 21300000, guid: 487c26b9d15d4ae18d9867a25feb3257, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 487c26b9d15d4ae18d9867a25feb3257, type: 3}
+    itemPrice: 80
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 63
+    itemName: "\u706f\u7b3c"
+    itemType: 6
+    itemDescription: "\u665a\u4e0a\u6302\u5728\u519c\u573a\u91cc\uff0c\u5f88\u6e29\u99a8"
+    itemIcon: {fileID: 21300000, guid: 6a5c0e39be174438b073dfde5df4b7a4, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 6a5c0e39be174438b073dfde5df4b7a4, type: 3}
+    itemPrice: 160
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1
+  - itemID: 64
+    itemName: "\u82b1\u76c6"
+    itemType: 6
+    itemDescription: "\u4e00\u76c6\u5c0f\u82b1\uff0c\u6446\u7740\u597d\u770b"
+    itemIcon: {fileID: 21300000, guid: 44e35881b30342a98120bcf98c031857, type: 3}
+    itemOnWorldSprite: {fileID: 21300000, guid: 44e35881b30342a98120bcf98c031857, type: 3}
+    itemPrice: 100
+    sellPercentage: 0.5
+    maxStack: 99
+    isDraggable: 1
+    isUseable: 1

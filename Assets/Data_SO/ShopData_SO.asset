@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b11ecc80967ee8e4da304e8f99a73f15, type: 3}
+  m_Name: ShopData_SO
+  m_EditorClassIdentifier: 
+  shopGoodsList:
+  - itemId: 1
+    buyPrice: 99
+    cate: 1
+    isOnSale: 1
+  - itemId: 3
+    buyPrice: 88
+    cate: 1
+    isOnSale: 1
+  - itemId: 5
+    buyPrice: 77
+    cate: 1
+    isOnSale: 1
+  - itemId: 7
+    buyPrice: 66
+    cate: 1
+    isOnSale: 1
+  - itemId: 9
+    buyPrice: 55
+    cate: 1
+    isOnSale: 1
+  - itemId: 11
+    buyPrice: 44
+    cate: 1
+    isOnSale: 1
+  - itemId: 13
+    buyPrice: 33
+    cate: 1
+    isOnSale: 1
+  - itemId: 15
+    buyPrice: 46
+    cate: 1
+    isOnSale: 1
+  - itemId: 17
+    buyPrice: 26
+    cate: 1
+    isOnSale: 1
+  - itemId: 19
+    buyPrice: 55
+    cate: 1
+    isOnSale: 1
+  - itemId: 26
+    buyPrice: 200
+    cate: 2
+    isOnSale: 1
+  - itemId: 47
+    buyPrice: 60
+    cate: 1
+    isOnSale: 1
+  - itemId: 49
+    buyPrice: 75
+    cate: 1
+    isOnSale: 1
+  - itemId: 33
+    buyPrice: 150
+    cate: 2
+    isOnSale: 1
+  - itemId: 34
+    buyPrice: 600
+    cate: 2
+    isOnSale: 1
+  - itemId: 36
+    buyPrice: 260
+    cate: 1
+    isOnSale: 1
+  - itemId: 39
+    buyPrice: 120
+    cate: 2
+    isOnSale: 1
+  - itemId: 51
+    buyPrice: 60
+    cate: 2
+    isOnSale: 1
+  - itemId: 52
+    buyPrice: 50
+    cate: 2
+    isOnSale: 1
+  - itemId: 53
+    buyPrice: 90
+    cate: 2
+    isOnSale: 1
+  - itemId: 54
+    buyPrice: 150
+    cate: 2
+    isOnSale: 1
+  - itemId: 55
+    buyPrice: 30
+    cate: 2
+    isOnSale: 1
+  - itemId: 61
+    buyPrice: 150
+    cate: 2
+    isOnSale: 1
+  - itemId: 62
+    buyPrice: 100
+    cate: 2
+    isOnSale: 1
+  - itemId: 63
+    buyPrice: 200
+    cate: 2
+    isOnSale: 1
+  - itemId: 64
+    buyPrice: 120
+    cate: 2
+    isOnSale: 1
